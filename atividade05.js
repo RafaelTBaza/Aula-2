@@ -3,8 +3,20 @@
 
 var num1 = 5
 var num2 = 15
+var op = "*"
 
-console.log ("a soma dos numeros é " + (num1 + num2))
-console.log ("a subtração dos numeros é " + (num1 - num2))
-console.log ("a multiplicação dos numeros é " + (num1 * num2))
-console.log ("a divisão dos numeros é " + (num1 / num2))
+if(op == "/"){
+    console.log(num1 / num2)
+}
+
+if(op == "+"){
+    console.log(num1 + num2)
+}
+
+if(op == "-"){
+    console.log(num1 - num2)
+}
+
+if(op == "*"){
+    console.log(num1 * num2)
+}
